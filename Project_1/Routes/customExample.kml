@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document xmlns="">
+    <name>Routes</name>
+    <Style id="lineblue">
+      <LineStyle>
+        <color>50F00014</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="linelightBlue">
+      <LineStyle>
+        <color>50FF7800</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="linegreen">
+      <LineStyle>
+        <color>5014F000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="linedarkGray">
+      <LineStyle>
+        <color>50464646</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pinorange">
+      <IconStyle>
+        <Icon>
+          <href>https://www.google.com/intl/en_us/mapfiles/ms/icons/orange-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="pinblue">
+      <IconStyle>
+        <Icon>
+          <href>https://www.google.com/intl/en_us/mapfiles/ms/icons/blue-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Route 1</name>
+      <styleUrl>#linegreen</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>23.7378265, 37.9839043
+23.7378265, 37.9839043
+23.738292, 37.9841332
+23.738292, 37.9841332
+23.7378867, 37.984637
+23.7375154, 37.9851131
+23.7371881, 37.9855056
+23.7371881, 37.9855056
+23.7376799, 37.9857596
+23.7380833, 37.9859554
+23.7385387, 37.9861796
+23.7390099, 37.9864358
+23.7394926, 37.9866986
+23.7399353, 37.9869289
+23.7404796, 37.9872004
+23.7410422, 37.9874828
+23.741567, 37.987756
+23.7420738, 37.9880137
+23.7424086, 37.988305
+23.7424086, 37.988305
+23.7428048, 37.9886715
+23.7433692, 37.9888073
+23.7433692, 37.9888073
+23.7428446, 37.9894754
+23.7424857, 37.9897858
+23.7425506, 37.989941
+23.7425506, 37.989941
+23.7425506, 37.989941
+23.742658, 37.9899221
+23.7438331, 37.9897152
+23.7438331, 37.9897152
+23.7438622, 37.9898166
+23.7438622, 37.9898166
+23.7440406, 37.9897853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>1</name>
+      <styleUrl>#pinblue</styleUrl>
+      <Point>
+        <coordinates>23.7357169, 37.9758438</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2</name>
+      <styleUrl>#pinblue</styleUrl>
+      <Point>
+        <coordinates>23.7255421, 37.9635256</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3</name>
+      <styleUrl>#pinblue</styleUrl>
+      <Point>
+        <coordinates>23.7240128, 37.9822848</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4</name>
+      <styleUrl>#pinblue</styleUrl>
+      <Point>
+        <coordinates>23.7501596, 37.9769041</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5</name>
+      <styleUrl>#pinblue</styleUrl>
+      <Point>
+        <coordinates>23.7440406, 37.9897853</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Client</name>
+      <styleUrl>#pinorange</styleUrl>
+      <Point>
+        <coordinates>23.7378265, 37.9839043</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

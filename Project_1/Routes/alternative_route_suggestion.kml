@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document xmlns="">
+    <name>Routes</name>
+    <Style id="lineblue">
+      <LineStyle>
+        <color>50F00014</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="linelightBlue">
+      <LineStyle>
+        <color>50FF7800</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="linegreen">
+      <LineStyle>
+        <color>5014F000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="linedarkGray">
+      <LineStyle>
+        <color>50464646</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pinorange">
+      <IconStyle>
+        <Icon>
+          <href>https://www.google.com/intl/en_us/mapfiles/ms/icons/orange-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="pinblue">
+      <IconStyle>
+        <Icon>
+          <href>https://www.google.com/intl/en_us/mapfiles/ms/icons/blue-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Route 2</name>
+      <styleUrl>#linedarkGray</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>0.0, 1.0
+0.0, 1.0
+1.0, 0.0
+2.0, 1.0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route 1</name>
+      <styleUrl>#linegreen</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>0.0, 1.0
+0.0, 1.0
+1.0, 2.0
+2.0, 1.0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>3</name>
+      <styleUrl>#pinblue</styleUrl>
+      <Point>
+        <coordinates>2.0, 1.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Client</name>
+      <styleUrl>#pinorange</styleUrl>
+      <Point>
+        <coordinates>0.0, 1.0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
